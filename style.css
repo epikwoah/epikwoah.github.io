@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #ffe8ef;
+	margin: 0;
+}
+
+nav {
+	background-color: #ff8eb1;
+	height: 50px;
+	padding-top: 1px;
+	font-size: 16px;
+	padding-left: 10px;
+	color: white;
+}
+
+p, h1 {
+	padding-left: 16px;
+}
+
+a {
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+}
+a:hover {
+	color:#ffd8eb;
+}
+
+header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #ffdbe6;
+	text-align: center;
+	font-size: 24px;
+	background-image: url("https://us.123rf.com/450wm/viaire/viaire1708/viaire170800061/84509481-cute-seamless-pattern-with-peaches-on-a-pink-background-with-dots-it-can-be-used-for-packaging-wrapp.jpg?ver=6");
+	font-family: 'Indie Flower', sans-serif;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Hind Guntur'
+}
+
+span {
+	font-weight: bold;
+	font-family: 'Fredoka One'
+}
+
+div {
+	border-top: solid 1px pink;
+}
+
+.navigation {
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+
